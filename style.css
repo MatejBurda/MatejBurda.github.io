@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-	background: url(images/PC.png);
 	margin: 0 auto;
 	padding: auto;
 	width: 100%;
@@ -21,8 +20,8 @@ body {
 	text-align: center;
 	background-color: black;
 	color: white;
-	width: 600px;
-	min-height: 200px;
+	width: 800px;
+	min-height: 150px;
 	margin: 0 auto;
 }
 
@@ -39,8 +38,8 @@ body {
 	text-align: center;
 	background-color: black;
 	color: white;
-	width: 1000px;
-	min-height: 200px;
+	width: 800px;
+	min-height: 150px;
 	margin: 0 auto;
 }
 
