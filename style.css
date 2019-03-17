@@ -1,46 +1,108 @@
 body {
+	font-family: "cooline";
 	margin: 0 auto;
 	height: 100%;
 	width: 100%;
-	background-color: #DEB887;
-	color: black;
+	background: url('images/body_background.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	padding: 0px;
 	overflow-x: hidden;
 }
 
-.container {
-	margin: 0 auto;
-	padding: auto;
-	width: 100%;
-	height: 100%;
+@font-face {
+	font-family: "cooline";
+	src: url(Fonts/cooline.ttf);
 
 }
 
+
 .header {
 	text-align: center;
-	background-color: black;
 	color: white;
-	width: 800px;
-	min-height: 150px;
+	width: 1100px;
+	min-height: 250px;
 	margin: 0 auto;
 }
 
 .content {
 	text-align: center;
-	background-color: black;
+	background:url(images/Artanis.jpg);
 	color: white;
-	width: 800px;
-	min-height: 600px;
+	width: 1100px;
+	min-height: 800px;
 	margin: 0 auto;
 }
 
 .footer {
 	text-align: center;
-	background-color: black;
+	background-color: orange;
 	color: white;
-	width: 800px;
-	min-height: 150px;
+	width: 1100px;
+	min-height: 200px;
 	margin: 0 auto;
 }
 
+ul {
+	font-size: 17px;
+	list-style-type: none;
+	margin: 0 auto;
+	width: 1060px;
+	min-height: 50px;
+	overflow: hidden;
+	padding-left: 0;
+}
 
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 80px;
+}
+
+.dropdown-content a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	background: url('images/body_background.jpg');
+}
+
+li {
+	float: left;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 16px 16px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	transition: .35s;
+	color: #ff4000;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.right_navbar {
+	float: right;
+}
+
+
+.news_train {
+	position: absolute;
+	background: url(images/new_hub.png);
+	width: 400px;
+	height: 340px;
+	margin-top: 400px;
+	margin-left: 80px;
+}
