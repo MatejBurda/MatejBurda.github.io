@@ -82,6 +82,9 @@ li a, .dropbtn {
 li a:hover, .dropdown:hover .dropbtn {
 	transition: .35s;
 	color: #ff4000;
+	-ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
 }
 
 li.dropdown {
@@ -104,6 +107,13 @@ li.dropdown {
 	height: 340px;
 	margin-top: 400px;
 	margin-left: 80px;
+	transition: transform .35s;
+}
+
+.news_train:hover {
+	-ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
 }
 
 .href_links::after {
@@ -119,8 +129,8 @@ li.dropdown {
 }
 
 .images_ref:hover {
-	-ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+	-ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
   transform: scale(1.5); 
 }
 
