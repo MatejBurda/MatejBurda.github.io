@@ -105,3 +105,22 @@ li.dropdown {
 	margin-top: 400px;
 	margin-left: 80px;
 }
+
+.href_links::after {
+	clear: both;
+	display: table;
+	text-align: center;
+}
+
+.images_ref {
+	transition: transform .35s;
+	padding: 5px;
+	display:inline-block;
+}
+
+.images_ref:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
