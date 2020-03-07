@@ -100,7 +100,7 @@ li.dropdown {
 }
 
 
-.news_train {
+.slideshow {
 	position: absolute;
 	background: url(images/new_hub.png);
 	width: 400px;
@@ -110,7 +110,7 @@ li.dropdown {
 	transition: transform .35s;
 }
 
-.news_train:hover {
+.slideshow:hover {
 	-ms-transform: scale(1.1); 
   -webkit-transform: scale(1.1); 
   transform: scale(1.1); 
