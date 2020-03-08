@@ -52,19 +52,27 @@ ul {
 	min-height: 50px;
 	overflow: hidden;
 	padding-left: 0;
+	background:url(images/dropdowncon.png);
+	background-repeat: no-repeat;
+	background-size: 150%;
+	border-radius: 50px / 50px;
+	margin-bottom: 5px;
+	border: 2px solid #555;
 }
 
 .dropdown-content {
 	display: none;
 	position: absolute;
 	min-width: 80px;
+	background: url(images/body_background.jpg);
+	border-radius: 15px;
+	border: 2px solid #555;
 }
 
 .dropdown-content a {
 	color: white;
 	text-decoration: none;
 	display: block;
-	background: url('images/body_background.jpg');
 }
 
 li {
@@ -81,7 +89,7 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
 	transition: .35s;
-	color: #ff4000;
+	color:orange; /* #ff4000; */
 	-ms-transform: scale(1.1); 
   -webkit-transform: scale(1.1); 
   transform: scale(1.1); 
